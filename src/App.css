@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  background-color: #6c8ca7;
+  padding: 50px;
+
+}
+
+button {
+  padding: 10px 27px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+}
+
+button:focus {
+  background-color: #009dff;
+  
+}
+
+button.active {
+  background-color: #009dff;
+  color: aliceblue;
+  padding: 10px 27px;
+  border: none;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 2px;
+}
+
+li.completed {
+  text-decoration: underline;
+}
+
+input {
+  padding: 10px 27px;
+}
